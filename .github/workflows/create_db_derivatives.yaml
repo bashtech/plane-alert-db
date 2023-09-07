@@ -5,7 +5,7 @@ permissions:
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main","dev"]
     paths:
       - "plane-alert-db.csv"
       - "plane-alert-twitter-blocked.csv"
